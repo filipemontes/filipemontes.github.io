@@ -68,14 +68,7 @@ section h2 {
     color: #555;
 }
 
-.project img {
-    width: 80%;  /* Adjust percentage as needed */
-    max-width: 400px; /* Ensures the image doesn't exceed this width */
-    height: auto; /* Maintains aspect ratio */
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-}
+ 
 
 .project a {
     display: inline-block;
