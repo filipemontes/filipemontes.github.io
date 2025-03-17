@@ -1,130 +1,115 @@
- /* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
+ /* General styling */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-/* Header Section */
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #333;
+    color: white;
     text-align: center;
-}
-
-header .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    margin: 0;
+    font-size: 36px;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 
-/* About Section */
-#about {
-    padding: 50px 0;
-    background-color: #f4f4f4;
+section {
+    padding: 20px;
+    margin: 20px 0;
 }
 
-#about .container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Personal Projects Section */
+h2 {
+    text-align: center;
+    font-size: 32px;
 }
 
-#about h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-/* Academic Projects Section */
-#academic-projects {
-    padding: 50px 0;
-}
-
-#academic-projects .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#academic-projects h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
-/* Project Box Style */
 .project {
-    margin-bottom: 40px;
-}
-
-.project img {
-    width: 100%;
-    height: auto;
+    background-color: white;
     border-radius: 8px;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.project p {
-    font-size: 1rem;
-    margin-bottom: 15px;
-}
-
-.project ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.project ul li {
-    font-size: 1rem;
-    margin-bottom: 10px;
-}
-
-.project a {
-    font-size: 1rem;
+    font-size: 28px;
+    margin-top: 0;
     color: #333;
+}
+
+.project-details {
+    margin-top: 20px;
+}
+
+.project-details p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.project-details a {
+    color: #007BFF;
     text-decoration: none;
 }
 
-.project a:hover {
+.project-details a:hover {
     text-decoration: underline;
 }
 
-/* End of Academic Projects Section */
-
-/* Personal Projects Section */
-#personal-projects {
-    padding: 50px 0;
-    background-color: #f4f4f4;
+.project-details strong {
+    font-weight: bold;
 }
 
-/* Footer Section */
+.project-details p {
+    margin-bottom: 10px;
+}
+
+/* Key Features Section */
+.project-details ul {
+    padding-left: 20px;
+}
+
+/* Footer */
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
+footer p {
+    margin: 0;
 }
 
-/* End of Footer Section */
+/* GitHub link styling */
+.project-details a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}
+
 
