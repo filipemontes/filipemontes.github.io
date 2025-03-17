@@ -1,86 +1,98 @@
- <!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filipe Montes - Data Science Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>Filipe Montes</h1>
-            <p>Bachelor’s Degree in Data Science from NOVA IMS</p>
-        </div>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my online portfolio showcasing my projects and skills.</p>
     </header>
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Filipe Montes, a Data Science graduate from NOVA IMS. This portfolio was created to showcase the projects I developed during my academic journey as well as personal projects I have worked on or am currently developing.</p>
+    <section>
+        <h2>Personal Projects</h2>
+        <p>Here are some of the personal projects I have worked on, demonstrating my skills in various fields.</p>
+    </section>
+
+    <!-- Project 1 - Gym App -->
+    <section class="project">
+        <h3>Gym App</h3>
+        <div class="project-details">
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>User registration and profile creation.</li>
+                <li>Workout tracking and goal setting.</li>
+                <li>Progress tracking with graphical representations.</li>
+                <li>Integration with popular fitness APIs for workout data.</li>
+            </ul>
+            <p>
+                <strong>View on GitHub:</strong> <a href="https://github.com/myprofile/gymapp" target="_blank">Gym App GitHub</a>
+                <br>
+                <strong>Course:</strong> Capstone Project
+                <br>
+                <strong>Grade:</strong> 17/20
+            </p>
         </div>
     </section>
 
-    <section id="academic-projects">
-        <div class="container">
-            <h2>Academic Projects</h2>
-
-            <!-- GymApp Project -->
-            <div class="project">
-                <h3>GymApp</h3>
-                <p>GymApp is a project I developed for a university course. It helps users track their workout routines and progress. Features include personalized workout plans, exercise tracking, and progress visualization.</p>
-                <img src="gymapp.png" alt="GymApp Screenshot" style="width: 200px; height: auto;">
-                <a href="https://github.com/filipemontes/GymApp" target="_blank">View on GitHub</a>
-                <p><strong>Course:</strong> Capstone Project</p>
-                <p><strong>Grade:</strong> 17/20</p>
-            </div>
-
-            <!-- AIRESUMES Project -->
-            <div class="project">
-                <h3>AIRESUMES</h3>
-                <p>AIRESUMES is an AI-powered EdTech app designed to help students and teachers by transcribing lectures, generating summaries, and creating quizzes. It simplifies studying and improves learning efficiency.</p>
-                <img src="airesumes.png" alt="AIRESUMES Screenshot" style="width: 80%; height: auto;">
-                <h4>Key Features:</h4>
-                <ul style="text-align: left;">
-                    <li>🎙️ <strong>Voice-to-Text</strong> – Converts lectures into text.</li>
-                    <li>📄 <strong>Smart Summaries</strong> – Generates clear, structured study notes.</li>
-                    <li>✅ <strong>AI Quizzes</strong> – Turns lessons into interactive quizzes.</li>
-                </ul>
-                <p>With AIRESUMES, learning becomes more <strong>organized, accessible, and interactive</strong>.</p>
-                <a href="https://github.com/filipemontes/AIRESUMES" target="_blank">View on GitHub</a>
-                <p><strong>Course:</strong> StartUp Venture </p>
-                <p><strong>Grade:</strong> 18/20</p>
-            </div>
-
-            <!-- Skin Cancer Detection Project -->
-            <div class="project">
-                <h3>Skin Cancer Detection using Deep Learning</h3>
-                <p>This project focuses on creating a deep learning model to classify different types of skin cancer using image data. We utilized Convolutional Neural Networks (CNNs) for image classification.</p>
-                
-                <h4>Key Features:</h4>
-                <ul style="text-align: left;">
-                    <li>🧠 <strong>Deep Learning</strong> – Created a CNN model to classify skin cancer types.</li>
-                    <li>🔬 <strong>Data Preprocessing</strong> – Cleaned and prepared the dataset with techniques like image resizing, normalization, and augmentation.</li>
-                    <li>⚙️ <strong>TensorFlow & Keras</strong> – Used for training and tuning the neural network model.</li>
-                </ul>
-                <p style="text-align: left;">This project demonstrates how deep learning can aid in early skin cancer detection, improving patient outcomes by providing timely diagnoses.</p>
-
-                <!-- Link to GitHub repository -->
-                <a href="https://github.com/filipemontes/SkinCancerDetection" target="_blank">View on GitHub</a>
-
-                <p><strong>Course:</strong> Deep Learning Course</p>
-                <p><strong>Grade:</strong> 16/20</p>
-            </div>
-
-            <!-- Add more academic projects here if needed -->
+    <!-- Project 2 - AI Resume -->
+    <section class="project">
+        <h3>AI Resume</h3>
+        <div class="project-details">
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>AI-powered resume builder with keyword optimization.</li>
+                <li>Pre-built templates for quick resume creation.</li>
+                <li>Resume scoring to improve chances of job success.</li>
+                <li>Interactive feedback on resume content.</li>
+            </ul>
+            <p>
+                <strong>View on GitHub:</strong> <a href="https://github.com/myprofile/airesumes" target="_blank">AI Resume GitHub</a>
+                <br>
+                <strong>Course:</strong> Machine Learning Course
+                <br>
+                <strong>Grade:</strong> 19/20
+            </p>
         </div>
     </section>
 
-    <section id="personal-projects">
-        <div class="container">
-            <!-- You can add any personal projects here -->
+    <!-- Project 3 - Skin Cancer Detection -->
+    <section class="project">
+        <h3>Skin Cancer Detection</h3>
+        <div class="project-details">
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>Deep learning model for skin cancer detection.</li>
+                <li>Image preprocessing, including resizing and normalization.</li>
+                <li>Evaluation metrics including F1 score to assess model performance.</li>
+                <li>Used TensorFlow and Keras for model training.</li>
+            </ul>
+            <p>
+                <strong>View on GitHub:</strong> <a href="https://github.com/myprofile/skincancer" target="_blank">Skin Cancer GitHub</a>
+                <br>
+                <strong>Course:</strong> Deep Learning with Python
+                <br>
+                <strong>Grade:</strong> 18/20
+            </p>
         </div>
     </section>
+
+    <!-- Additional Projects can follow a similar structure -->
+
+    <footer>
+        <p>© 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
 
