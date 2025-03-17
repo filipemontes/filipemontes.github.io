@@ -36,10 +36,9 @@ section {
 }
 
 section h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
-    color: #333;
 }
 
 .project {
@@ -48,21 +47,16 @@ section h2 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Aligns the text to center */
 }
 
-.project h3 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #333;
+.project img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
 }
-
-.project p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    color: #666;
-}
-
- 
 
 .project a {
     display: inline-block;
@@ -72,21 +66,14 @@ section h2 {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
 }
 
- 
-
-.project ul {
-    margin-top: 10px;
-    list-style-type: none;
+.project a:hover {
+    background-color: #555;
 }
 
-.project ul li {
-    font-size: 1.1em;
-    margin-bottom: 8px;
-    color: #555;
+#academic-projects .ai-resumes {
+    text-align: left;  /* Aligns AIRESUMES project to the left */
 }
 
 footer {
@@ -99,24 +86,3 @@ footer {
     bottom: 0;
 }
 
-#personal-projects p {
-    font-size: 1.2em;
-    text-align: center;
-    color: #666;
-}
-
-#academic-projects .project,
-#personal-projects .project {
-    background-color: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-#personal-projects {
-    margin-top: 40px;
-}
-.project img {
-    width: 200px;
-    height: auto;
-    margin: 20px auto;
-    display: block;
-}
