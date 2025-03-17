@@ -62,18 +62,7 @@ section h2 {
     color: #666;
 }
 
-.project img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-}
-
-.project img:hover {
-    transform: scale(1.05);
-}
+ 
 
 .project a {
     display: inline-block;
@@ -87,9 +76,7 @@ section h2 {
     transition: background-color 0.3s ease;
 }
 
-.project a:hover {
-    background-color: #555;
-}
+ 
 
 .project ul {
     margin-top: 10px;
