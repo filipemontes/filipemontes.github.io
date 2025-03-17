@@ -1,88 +1,130 @@
- * {
+ /* General Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
+/* Header Section */
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
-section {
-    padding: 40px 0;
+/* About Section */
+#about {
+    padding: 50px 0;
+    background-color: #f4f4f4;
 }
 
-section h2 {
-    font-size: 2em;
+#about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 2rem;
     margin-bottom: 20px;
-    text-align: center;
 }
 
+/* Academic Projects Section */
+#academic-projects {
+    padding: 50px 0;
+}
+
+#academic-projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#academic-projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Project Box Style */
 .project {
-    background-color: #fff;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;  /* Aligns the text to center */
+    margin-bottom: 40px;
 }
 
 .project img {
     width: 100%;
-    max-width: 400px;
-    display: block;
-    margin: 20px auto;
+    height: auto;
     border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.project ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 .project a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    font-size: 1rem;
+    color: #333;
     text-decoration: none;
-    border-radius: 5px;
 }
 
 .project a:hover {
-    background-color: #555;
+    text-decoration: underline;
 }
 
-#academic-projects .ai-resumes {
-    text-align: left;  /* Aligns AIRESUMES project to the left */
+/* End of Academic Projects Section */
+
+/* Personal Projects Section */
+#personal-projects {
+    padding: 50px 0;
+    background-color: #f4f4f4;
 }
 
+/* Footer Section */
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px 0;
 }
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* End of Footer Section */
 
