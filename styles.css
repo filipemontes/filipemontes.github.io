@@ -114,3 +114,9 @@ footer {
 #personal-projects {
     margin-top: 40px;
 }
+.project img {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
