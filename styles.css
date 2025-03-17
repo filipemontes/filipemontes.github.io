@@ -69,8 +69,9 @@ section h2 {
 }
 
 .project img {
-    width: 100%;
-    max-width: 300px;
+    width: 80%;  /* Adjust percentage as needed */
+    max-width: 400px; /* Ensures the image doesn't exceed this width */
+    height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 20px auto;
     border-radius: 8px;
