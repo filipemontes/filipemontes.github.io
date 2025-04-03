@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: white;
@@ -22,17 +23,18 @@ header p {
     font-size: 18px;
 }
 
+/* Sections */
 section {
     padding: 20px;
     margin: 20px 0;
 }
 
-/* Personal Projects Section */
 h2 {
     text-align: center;
     font-size: 32px;
 }
 
+/* Projects */
 .project {
     background-color: white;
     border-radius: 8px;
@@ -49,6 +51,7 @@ h2 {
     color: #333;
 }
 
+/* Key Features Section */
 .project-details {
     margin-top: 20px;
 }
@@ -65,26 +68,24 @@ h2 {
     padding-left: 10px;
 }
 
-.project-details a {
-    color: #007BFF;
+/* GitHub Buttons */
+.project a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
     text-decoration: none;
-}
-
-.project-details a:hover {
-    text-decoration: underline;
-}
-
-.project-details strong {
     font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+    margin-top: 10px;
+    width: fit-content;
 }
 
-.project-details p {
-    margin-bottom: 10px;
-}
-
-/* Key Features Section */
-.project-details ul {
-    padding-left: 20px;
+.project a:hover {
+    background-color: #0056b3;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -100,16 +101,6 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-/* GitHub link styling */
-.project-details a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.project-details a:hover {
-    text-decoration: underline;
 }
 
 
